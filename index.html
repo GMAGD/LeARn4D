@@ -4,39 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/main.css">
-    <title>Document</title>
+    <title>Download Learn4D Apk</title>
+    <link rel="icon" href="./public/learn.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap" rel="stylesheet">
+    <script>
+   const buttons = document.querySelectorAll(".button");
+
+for (const button of buttons) {
+  button.addEventListener("click", () => {
+    button.classList.toggle("button--active");
+    document.forms[0].submit();
+
+  });
+}
+
+    </script>
 </head>
 <body>
-    <div className="container-1">
-        <Head>
-          <title>Download Learn4D Apk</title>
-          <link rel="icon" href="/learn.ico" />
-        </Head>
-    
+    <div class="container-1">
+
         <main>
-          <h1 className="title">
+          <h1 class="title">
               LeARn4D تحميل تطبيق
           </h1>
     
-          <div className="container"> 
-            <div className="button">
-              إضغط هنا
-    
-            </div>
-            </div>
-          <div className="grid">
+          <div class="container"> 
+           
+            <form  method="get" action="LeARn4D_PAID_v1.2.apk">
+              <div class="button" onClick="this.parentNode.submit()">
+                إضغط هنا
+      
+              </div>
+           </form>
+          </div>
+          <div class="grid">
            
           </div>
         </main>
     
-        <footer>
-          <a
-            href="http://www.israa-media.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by <img src="/learn.ico" alt="Learn Logo" />
-          </a>
-        </footer>
+       
 </body>
+<footer>
+  <a
+    href="http://www.israa-media.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Powered by <img src="./public/learn.ico" alt="Learn Logo" />
+  </a>
+</footer>
 </html>
